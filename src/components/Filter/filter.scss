@@ -1,0 +1,39 @@
+$font: "Architects Daughter", sans-serif;
+$radius: 8px;
+$color:#fdcb6e;
+
+.filter-container {
+  display: flex;
+  flex-wrap: wrap;
+  input{
+  outline: none;
+  border: 3px dashed $color;
+  background-color: transparent;
+  font-family: $font;
+  font-size: 1.3rem;
+  padding: 10px 15px;
+  width: 45%;
+  color: #494a4b;
+  border-radius: $radius;
+  margin-right: 15px;
+  }
+  button{
+    border: 1px solid $color;
+    border-radius: $radius;
+    width:100px;
+    height: 50px;
+    font-family: $font;
+    font-size: 0.9rem;
+    margin-right: 15px;
+    cursor: pointer;
+    &:hover{
+      background-color: rgb(198, 202, 207);
+    }
+  } 
+}
+.activeBtn{
+  background-color: rgb(198, 202, 207);
+}
+.inactiveBtn{
+  background-color: transparent;
+}

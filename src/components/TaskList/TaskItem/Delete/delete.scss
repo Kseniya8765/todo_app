@@ -1,0 +1,19 @@
+$font: "Architects Daughter", sans-serif;
+$radius: 8px;
+$color:#fdcb6e;
+
+.reset{
+   border: 1px solid $color;
+    border-radius: $radius;
+    width:50px;
+    height: 40px;
+    font-family: $font;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: red;
+    font-weight: 700;
+    cursor: pointer;
+    &:hover{
+      background-color: rgb(198, 202, 207);
+    }
+}

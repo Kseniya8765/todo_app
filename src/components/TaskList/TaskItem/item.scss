@@ -1,0 +1,18 @@
+$font: "Architects Daughter", sans-serif;
+
+.todoItem{
+  display: flex;
+  p {
+    text-align: left;   
+    margin: 30px 10px;
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #494a4b;
+    font-family: $font;
+    max-width: 250px;
+    min-width: 200px;;
+  }
+}
+.priority{
+  min-width:30px !important;
+}
